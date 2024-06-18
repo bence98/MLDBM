@@ -6,6 +6,9 @@ my $build = Module::Build->new(
   'build_requires' => {
     'Test::More' => 0
   },
+  'test_requires' => {
+    'FreezeThaw' => 0,
+  },
   'module_name' => 'MLDBM',
   'requires' => {
     'perl' => '5.005',
